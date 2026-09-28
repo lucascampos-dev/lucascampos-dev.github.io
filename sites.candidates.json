@@ -3,7 +3,7 @@
   "slug": "mepague",
   "url": "https://appmepague.com.br",
   "title": "MePague",
-  "kind": "Own product · mobile app",
+  "kind": "Own product \u00b7 mobile app",
   "group": "product",
   "desc": "Billing and payment-reminder app for small businesses: registers charges, reminds customers automatically and tracks what has been paid. Built with React Native (Expo) and Firebase, plus its landing page.",
   "tags": [
@@ -17,7 +17,7 @@
   "slug": "cantamore",
   "url": "https://cantamore.com.br",
   "title": "Cantamore",
-  "kind": "Own product · web",
+  "kind": "Own product \u00b7 web",
   "group": "product",
   "desc": "Personalized-song gift service: customers tell a real story and receive an original song, produced with AI and human curation. Brand, website and order flow.",
   "tags": [
@@ -31,7 +31,7 @@
   "slug": "neocentro",
   "url": "https://neocentrovacinas.com.br",
   "title": "Healthcare e-commerce network",
-  "kind": "WooCommerce · multi-site",
+  "kind": "WooCommerce \u00b7 multi-site",
   "desc": "Institutional website plus three regional WooCommerce stores and a landing page. Payment-gateway integration, 2FA hardening, performance tuning and ongoing maintenance.",
   "tags": [
    "WordPress",
@@ -59,7 +59,7 @@
   "slug": "techcare",
   "url": "https://techcareapp.com",
   "title": "Promotional website for a mobile-app startup",
-  "kind": "WordPress · landing",
+  "kind": "WordPress \u00b7 landing",
   "desc": "Website promoting a mobile app, delivered with user manual and client training.",
   "tags": [
    "WordPress",
@@ -160,7 +160,7 @@
   "slug": "law",
   "url": "https://alinealvesfernandes.com",
   "title": "Landing page for a boutique law practice",
-  "kind": "HTML · CSS · JS",
+  "kind": "HTML \u00b7 CSS \u00b7 JS",
   "desc": "Hand-coded one-page site with WhatsApp contact form, optimized images and ethics-compliant copy.",
   "tags": [
    "HTML",
@@ -192,18 +192,6 @@
    "UI",
    "SEO",
    "Migration"
-  ],
-  "group": "client"
- },
- {
-  "slug": "dftintas",
-  "url": "https://dftintasgama.com.br",
-  "title": "Online store for a paint and hardware retailer",
-  "kind": "WooCommerce",
-  "desc": "Categorized catalog, related products, payment integration, abandoned-order e-mails and policy pages.",
-  "tags": [
-   "WooCommerce",
-   "Payments"
   ],
   "group": "client"
  },

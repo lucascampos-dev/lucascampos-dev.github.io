@@ -26,7 +26,7 @@
  },
  {
   "cat": "BI & dashboards",
-  "year": "2022–2023",
+  "year": "2022\u20132023",
   "title": "Usage-analytics dashboards for a national institution's mobile app",
   "desc": "Indicator design and dashboards built from mobile-app usage, technology and analytics data.",
   "stack": [
@@ -48,7 +48,7 @@
  },
  {
   "cat": "Simulator / tool",
-  "year": "2025–2026",
+  "year": "2025\u20132026",
   "title": "Consumption-tax reform impact simulator for a cooperative",
   "desc": "Estimates the future dual-VAT burden, deductible and presumed credits under different rate scenarios, with an audit trail from every input to its legal basis.",
   "stack": [
@@ -59,7 +59,7 @@
  },
  {
   "cat": "Consulting",
-  "year": "2025–2026",
+  "year": "2025\u20132026",
   "title": "Tax-reform advisory program for recycling cooperatives",
   "desc": "Workshops, action plan, technical note, plain-language booklet, video script and legislation-tracking updates to prepare cooperatives for the new consumption taxes.",
   "stack": [
@@ -150,7 +150,7 @@
  },
  {
   "cat": "Marketing",
-  "year": "2021–2024",
+  "year": "2021\u20132024",
   "title": "Digital presence and paid-ads program for small businesses",
   "desc": "Repeatable method applied to more than a dozen small businesses: briefing, diagnosis, keyword research, paid campaigns, a 7/30/60/90-day action plan and measurement.",
   "stack": [
@@ -162,7 +162,7 @@
  },
  {
   "cat": "Consulting",
-  "year": "2022–2023",
+  "year": "2022\u20132023",
   "title": "E-commerce readiness diagnostics for small retailers",
   "desc": "Assessments of whether small businesses were ready to launch an online store, with recommendations.",
   "stack": [
@@ -214,7 +214,7 @@
  },
  {
   "cat": "Website",
-  "year": "2025–2026",
+  "year": "2025\u20132026",
   "title": "Corporate website for an IT support company",
   "desc": "Information architecture, responsive UI, hero video, service sections and on-page SEO; later migrated to new hosting with a tested copy and rollback plan.",
   "stack": [
@@ -312,6 +312,16 @@
    "HTML",
    "CSS",
    "JavaScript"
+  ]
+ },
+ {
+  "cat": "E-commerce",
+  "year": "2022",
+  "title": "Online store for a paint and hardware retailer",
+  "desc": "Categorized catalog, related products, payment integration, abandoned-order e-mails and policy pages.",
+  "stack": [
+   "WooCommerce",
+   "Payments"
   ]
  }
 ]

@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lucas Campos — Full Stack Developer</title>
+<meta name="description" content="Portfolio of Lucas Campos: WordPress & WooCommerce, business systems (Power Apps), data & BI (Power BI) and web products. Project-based work, remote.">
+<meta property="og:title" content="Lucas Campos — Full Stack Developer">
+<meta property="og:description" content="WordPress & WooCommerce · Power Apps · Power BI · Web products. Project-based work, remote.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314B8A6'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' font-family='Arial' font-weight='700' font-size='28' fill='white'%3ELC%3C/text%3E%3C/svg%3E">
+<style>
+:root{--ink:#0E1A2B;--ink2:#16263D;--accent:#14B8A6;--accent-d:#0F8F82;--soft:#E6F7F5;--text:#1F2937;--mute:#5B6778;--line:#E3E8EF;--bg:#F7F9FB;--card:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.55}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+header.hero{background:linear-gradient(160deg,var(--ink) 0%,var(--ink2) 100%);color:#fff;padding:64px 0 72px;position:relative;overflow:hidden}
+header.hero:after{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(20,184,166,.35),transparent 65%)}
+.nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:48px;position:relative;z-index:1}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.02em}
+.logo i{width:36px;height:36px;border-radius:10px;background:var(--accent);display:grid;place-items:center;font-style:normal;font-size:14px}
+.nav nav{display:flex;gap:22px;font-size:14px;color:#C9D4E3}
+.nav nav a:hover{color:#fff}
+h1{font-size:clamp(34px,5vw,54px);line-height:1.08;letter-spacing:-.02em;max-width:760px;position:relative;z-index:1}
+h1 span{color:var(--accent)}
+.lead{margin-top:18px;max-width:680px;color:#C9D4E3;font-size:18px;position:relative;z-index:1}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px;position:relative;z-index:1}
+.chip{font-size:13px;padding:5px 12px;border-radius:99px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15)}
+.cta{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap;position:relative;z-index:1}
+.btn{padding:11px 18px;border-radius:10px;font-weight:600;font-size:15px}
+.btn.primary{background:var(--accent);color:#06201D}
+.btn.ghost{border:1px solid rgba(255,255,255,.3)}
+section{padding:64px 0}
+section h2{font-size:28px;letter-spacing:-.01em;color:var(--ink)}
+section .sub{color:var(--mute);margin:6px 0 26px;max-width:720px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(14,26,43,.10)}
+.shot{aspect-ratio:16/10;background:#DDE5EE center/cover no-repeat;border-bottom:1px solid var(--line)}
+.body{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}
+.kind{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-d)}
+.card h3{font-size:19px;margin:4px 0 8px;color:var(--ink)}
+.card p{color:var(--mute);font-size:15px;flex:1}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0}
+.tags span{font-size:12px;background:var(--soft);color:var(--accent-d);padding:3px 9px;border-radius:99px;font-weight:600}
+.links{display:flex;gap:16px;font-weight:600;font-size:14px}
+.links a{color:var(--ink2)}
+.links a:hover{color:var(--accent-d)}
+.note{font-size:13px;color:var(--mute);margin-top:18px;padding:12px 14px;border-left:3px solid var(--accent);background:#fff;border-radius:8px}
+.alt{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.skill{border:1px solid var(--line);border-radius:14px;padding:18px;background:var(--bg)}
+.skill b{display:block;color:var(--ink);margin-bottom:6px}
+.skill span{color:var(--mute);font-size:14px}
+footer{background:var(--ink);color:#C9D4E3;padding:40px 0;font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+footer a{color:#fff;font-weight:600}
+@media (max-width:640px){.nav nav{display:none}.grid{grid-template-columns:1fr}header.hero{padding:40px 0 52px}}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.filters button{font:inherit;font-size:13px;padding:6px 12px;border-radius:99px;border:1px solid var(--line);background:#fff;color:var(--ink2);cursor:pointer}
+.filters button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.plist{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+.pitem{border:1px solid var(--line);border-radius:14px;padding:16px 18px;background:var(--bg)}
+.pitem .top{display:flex;justify-content:space-between;gap:10px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent-d)}
+.pitem .top span:last-child{color:var(--mute);font-weight:600}
+.pitem h3{font-size:16px;margin:6px 0;color:var(--ink)}
+.pitem p{font-size:14px;color:var(--mute)}
+.pitem .tags{margin:10px 0 0}
+@media (max-width:640px){.plist{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="hero">
+ <div class="wrap">
+  <div class="nav"><div class="logo"><i>LC</i>Lucas Campos</div>
+   <nav><a href="#products">Products</a><a href="#code">Open source</a><a href="#sites">Websites</a><a href="#confidential">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav></div>
+  <h1>Full stack developer building <span>stores, systems and dashboards</span> that businesses actually use.</h1>
+  <p class="lead">WordPress &amp; WooCommerce, business apps in Power Apps, data &amp; BI in Power BI, and web products end to end. Project-based work, remote and asynchronous.</p>
+  <div class="chips"><span class="chip">WordPress</span><span class="chip">WooCommerce</span><span class="chip">PHP</span><span class="chip">React · TypeScript</span><span class="chip">Power Apps</span><span class="chip">Power BI · DAX</span><span class="chip">AI-assisted delivery</span></div>
+  <div class="cta"><a class="btn primary" href="#sites">See my work</a><a class="btn ghost" href="https://www.linkedin.com/in/lucas-campos-1146abab" target="_blank" rel="noopener">LinkedIn</a><a class="btn ghost" href="https://github.com/lucasthobias" target="_blank" rel="noopener">GitHub</a></div>
+ </div>
+</header>
+
+<section id="products">
+ <div class="wrap">
+  <h2>My own products</h2>
+  <p class="sub">Products I designed and built from idea to launch.</p>
+  <div class="grid" id="grid-product"></div>
+ </div>
+</section>
+
+<section id="code" class="alt">
+ <div class="wrap">
+  <h2>Open-source showcase</h2>
+  <p class="sub">Public repositories written to show how I work: clean structure, tests, documentation and live demos. All data is fictional.</p>
+  <div class="grid" id="grid-code"></div>
+ </div>
+</section>
+
+<section id="sites">
+ <div class="wrap">
+  <h2>Websites &amp; online stores</h2>
+  <p class="sub">A selection of live websites and WooCommerce stores I developed and/or maintain.</p>
+  <div class="grid" id="grid-client"></div>
+  <p class="note">Client work is shown only as public links and screenshots of the live sites. No client source code, data or credentials are published here.</p>
+ </div>
+</section>
+
+<section id="confidential" class="alt">
+ <div class="wrap">
+  <h2>More client projects</h2>
+  <p class="sub">Systems, dashboards, studies, consulting and earlier websites that are no longer online. Clients are not named and no data is shown; details can be discussed in an interview.</p>
+  <div class="filters" id="filters"></div>
+  <div class="plist" id="grid-conf"></div>
+ </div>
+</section>
+
+<section id="skills">
+ <div class="wrap">
+  <h2>What I do</h2>
+  <p class="sub">From requirements to launch and maintenance.</p>
+  <div class="skills">
+   <div class="skill"><b>WordPress &amp; WooCommerce</b><span>Custom themes and plugins, payment gateways, performance, security hardening, multi-site maintenance.</span></div>
+   <div class="skill"><b>Business systems</b><span>Power Apps canvas apps on SharePoint, process automation, requirements and data modeling.</span></div>
+   <div class="skill"><b>Data &amp; BI</b><span>Power BI and DAX, KPI frameworks, dashboards replacing spreadsheets and manual reporting.</span></div>
+   <div class="skill"><b>Web apps &amp; products</b><span>React / TypeScript SPAs, React Native (Expo) with Firebase, landing pages and product launches.</span></div>
+  </div>
+ </div>
+</section>
+
+<footer id="contact">
+ <div class="wrap">
+  <div><b style="color:#fff">Lucas Campos</b> · Full Stack Developer · Brasília, Brazil (UTC-3) · Remote</div>
+  <div><a href="https://www.linkedin.com/in/lucas-campos-1146abab" target="_blank" rel="noopener">LinkedIn</a> &nbsp;·&nbsp; <a href="https://github.com/lucasthobias" target="_blank" rel="noopener">GitHub</a></div>
+ </div>
+</footer>
+
+<script>
+const code=[
+ {title:"Brazil Checkout Essentials for WooCommerce",kind:"PHP · WordPress plugin",url:"https://github.com/lucasthobias/wc-brazil-checkout-essentials",
+  desc:"CPF/CNPJ fields with check-digit validation, CEP and phone formatting, and minimum order per state. HPOS-compatible, 119 unit tests, CI.",
+  tags:["PHP","WooCommerce","PHPUnit"],fallback:"linear-gradient(135deg,#0E1A2B,#14B8A6)"},
+ {title:"KPI Indicator Framework",kind:"Power BI · DAX · dashboard",url:"https://github.com/lucasthobias/kpi-indicator-framework",demo:"https://lucasthobias.github.io/kpi-indicator-framework/",
+  desc:"Star-schema model, a documented library of 39 DAX measures and an interactive dashboard prototype for 24 KPIs.",
+  tags:["Power BI","DAX","Data modeling"],image:"https://raw.githubusercontent.com/lucasthobias/kpi-indicator-framework/main/docs/screenshots/dashboard.png"},
+ {title:"Strategy Planner",kind:"React · TypeScript",url:"https://github.com/lucasthobias/strategy-planner",demo:"https://lucasthobias.github.io/strategy-planner/",
+  desc:"Strategic planning app: objectives, initiatives, indicators and timeline, with the equivalent Power Apps / SharePoint design.",
+  tags:["React","TypeScript","Power Apps"],image:"https://raw.githubusercontent.com/lucasthobias/strategy-planner/main/docs/screenshots/dashboard.png"},
+ {title:"Simulador IBS/CBS",kind:"JavaScript · tax simulator",url:"https://github.com/lucasthobias/simulador-ibs-cbs",demo:"https://lucasthobias.github.io/simulador-ibs-cbs/",
+  desc:"Year-by-year simulator of Brazil's consumption-tax reform (2026–2033), comparing today's taxes with IBS/CBS. Pure JS engine with tests.",
+  tags:["JavaScript","Tax","Tests"],image:"https://raw.githubusercontent.com/lucasthobias/simulador-ibs-cbs/main/docs/screenshots/simulador.png"}
+];
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function card(s,isCode){
+ const host=s.url.replace(/^https?:\/\//,'').replace(/\/$/,'');
+ const links=isCode
+  ? `<a href="${s.url}" target="_blank" rel="noopener">Code →</a>${s.demo?`<a href="${s.demo}" target="_blank" rel="noopener">Live demo →</a>`:''}`
+  : `<a href="${s.url}" target="_blank" rel="noopener">Visit ${esc(host)} →</a>`;
+ const bg=s.image?`background-image:url('${s.image}')`:`background:${s.fallback||'#DDE5EE'}`;
+ return `<article class="card"><a class="shot" href="${s.demo||s.url}" target="_blank" rel="noopener" style="${bg}" aria-label="${esc(s.title)}"></a>
+  <div class="body"><div class="kind">${esc(s.kind)}</div><h3>${esc(s.title)}</h3><p>${esc(s.desc)}</p>
+  <div class="tags">${(s.tags||[]).map(t=>`<span>${esc(t)}</span>`).join('')}</div><div class="links">${links}</div></div></article>`;
+}
+document.getElementById('grid-code').innerHTML=code.map(s=>card(s,true)).join('');
+fetch('sites.json').then(r=>r.json()).then(list=>{
+ for(const g of ['product','client']){
+  const el=document.getElementById('grid-'+g);
+  const items=list.filter(s=>(s.group||'client')===g);
+  el.innerHTML=items.map(s=>card(s,false)).join('');
+  if(!items.length) el.closest('section').style.display='none';
+ }
+});
+
+fetch('projects.json').then(r=>r.json()).then(list=>{
+ const cats=['All',...new Set(list.map(p=>p.cat))];
+ const f=document.getElementById('filters'), g=document.getElementById('grid-conf');
+ const render=c=>{g.innerHTML=list.filter(p=>c==='All'||p.cat===c).map(p=>`<article class="pitem"><div class="top"><span>${esc(p.cat)}</span><span>${esc(p.year)}</span></div><h3>${esc(p.title)}</h3><p>${esc(p.desc)}</p><div class="tags">${p.stack.map(t=>`<span>${esc(t)}</span>`).join('')}</div></article>`).join('');
+  [...f.children].forEach(b=>b.classList.toggle('on',b.dataset.c===c));};
+ f.innerHTML=cats.map(c=>`<button data-c="${esc(c)}">${esc(c)}</button>`).join('');
+ f.addEventListener('click',e=>{if(e.target.dataset.c)render(e.target.dataset.c)});
+ render('All');
+});
+</script>
+</body>
+</html>

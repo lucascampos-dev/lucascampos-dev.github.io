@@ -1,0 +1,145 @@
+[
+  {
+    "slug": "mepague",
+    "url": "https://appmepague.com.br",
+    "title": "MePague",
+    "kind": "Own product · mobile app",
+    "group": "product",
+    "desc": "Billing and payment-reminder app for small businesses: registers charges, reminds customers automatically and tracks what has been paid. Built with React Native (Expo) and Firebase, plus its landing page.",
+    "tags": [
+      "React Native",
+      "Expo",
+      "Firebase",
+      "Product"
+    ],
+    "image": "assets/sites/mepague.jpg"
+  },
+  {
+    "slug": "cantamore",
+    "url": "https://cantamore.com.br",
+    "title": "Cantamore",
+    "kind": "Own product · web",
+    "group": "product",
+    "desc": "Personalized-song gift service: customers tell a real story and receive an original song, produced with AI and human curation. Brand, website and order flow.",
+    "tags": [
+      "Product",
+      "Web",
+      "AI",
+      "Branding"
+    ],
+    "image": "assets/sites/cantamore.jpg"
+  },
+  {
+    "slug": "neocentro",
+    "url": "https://neocentrovacinas.com.br",
+    "title": "Healthcare e-commerce network",
+    "kind": "WooCommerce · multi-site",
+    "desc": "Institutional website plus three regional WooCommerce stores and a landing page. Payment-gateway integration, 2FA hardening, performance tuning and ongoing maintenance.",
+    "tags": [
+      "WordPress",
+      "WooCommerce",
+      "Payments",
+      "Security"
+    ],
+    "group": "client",
+    "static_image": "assets/sites/neocentro.jpg",
+    "image": "assets/sites/neocentro.jpg"
+  },
+  {
+    "slug": "jbturismo",
+    "url": "https://jbturismonaamazonia.com.br",
+    "title": "River-tourism agency website (Amazon)",
+    "kind": "WordPress",
+    "desc": "Tourism website with tour, fleet, gallery and contact pages, a floating menu, embedded map and SEO for regional tourism.",
+    "tags": [
+      "WordPress",
+      "SEO",
+      "Tourism"
+    ],
+    "group": "client",
+    "image": "assets/sites/jbturismo.jpg"
+  },
+  {
+    "slug": "ciodaterra",
+    "url": "https://cooperativaciodaterra.com.br",
+    "title": "Agricultural cooperative website",
+    "kind": "WordPress",
+    "desc": "Website for a farming cooperative: products, institutional content and news.",
+    "tags": [
+      "WordPress",
+      "Content",
+      "Responsive"
+    ],
+    "group": "client",
+    "image": "assets/sites/ciodaterra.jpg"
+  },
+  {
+    "slug": "locmil",
+    "url": "https://grupolocmil.com.br",
+    "title": "Tourism & services website for a regional business group",
+    "kind": "WordPress",
+    "desc": "Multi-business site for tours, lodging, car rental and an auto center, with WhatsApp booking links and local SEO.",
+    "tags": [
+      "WordPress",
+      "Tourism",
+      "Local SEO"
+    ],
+    "group": "client",
+    "image": "assets/sites/locmil.jpg"
+  },
+  {
+    "slug": "atman",
+    "url": "https://atmantantra.com.br",
+    "title": "Online course store for a therapy school",
+    "kind": "WooCommerce",
+    "desc": "WooCommerce store for courses with student login, payment-gateway integration and order reminders by e-mail and SMS.",
+    "tags": [
+      "WooCommerce",
+      "Payments",
+      "E-mail/SMS"
+    ],
+    "group": "client",
+    "image": "assets/sites/atman.jpg"
+  },
+  {
+    "slug": "thriade",
+    "url": "https://thriade.com",
+    "title": "Consulting firm website",
+    "kind": "WordPress",
+    "desc": "Institutional website for a management consulting firm.",
+    "tags": [
+      "WordPress",
+      "Corporate"
+    ],
+    "group": "client",
+    "image": "assets/sites/thriade.jpg"
+  },
+  {
+    "slug": "tecflex",
+    "url": "https://tecflexbrasilia.com",
+    "title": "Corporate website for an IT support company",
+    "kind": "WordPress",
+    "desc": "Information architecture, responsive UI, hero video, service sections and on-page SEO; later migrated to new hosting with a tested copy and rollback plan.",
+    "tags": [
+      "WordPress",
+      "UI",
+      "SEO",
+      "Migration"
+    ],
+    "group": "client",
+    "image": "assets/sites/tecflex.jpg"
+  },
+  {
+    "slug": "dftintas",
+    "url": "https://dftintasgama.com.br",
+    "title": "Online store for a paint and hardware retailer",
+    "kind": "WooCommerce",
+    "desc": "Categorized catalog, related products, payment integration, abandoned-order e-mails and policy pages.",
+    "tags": [
+      "WooCommerce",
+      "Payments"
+    ],
+    "group": "client",
+    "image": "assets/sites/dftintas.jpg"
+  }
+]

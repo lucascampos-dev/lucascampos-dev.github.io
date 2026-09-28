@@ -1,0 +1,317 @@
+[
+ {
+  "cat": "BI & dashboards",
+  "year": "2026",
+  "title": "BI indicator ecosystem for a national business-support program",
+  "desc": "Dashboard prototype with 7 dashboards and 30 indicator sheets across 9 policy areas, plus a 15-tab data-documentation workbook: sources, ingestion and cleaning rules, data model, governance and acceptance criteria.",
+  "stack": [
+   "Data modeling",
+   "Power BI / Fabric-ready",
+   "HTML prototype",
+   "Excel"
+  ]
+ },
+ {
+  "cat": "Business system",
+  "year": "2026",
+  "title": "Strategic management system for a public-sector organization",
+  "desc": "Canvas app for initiatives, indicators, goals, measurements and reports, migrated from a validated React prototype, with a documented data model.",
+  "stack": [
+   "Power Apps",
+   "Power Fx",
+   "SharePoint",
+   "React",
+   "Power BI"
+  ]
+ },
+ {
+  "cat": "BI & dashboards",
+  "year": "2022–2023",
+  "title": "Usage-analytics dashboards for a national institution's mobile app",
+  "desc": "Indicator design and dashboards built from mobile-app usage, technology and analytics data.",
+  "stack": [
+   "Firebase",
+   "Google Analytics",
+   "Excel"
+  ]
+ },
+ {
+  "cat": "Financial & economic study",
+  "year": "2026",
+  "title": "Economic and financial study of recycling-triage contracts",
+  "desc": "Rebuilt a public buyer's per-ton pricing formula to the cent and matched contract revenue against actual costs, with a six-factor comparison matrix and price-adjustment scenarios.",
+  "stack": [
+   "Excel (15 tabs, ~4,300 formulas)",
+   "Scenario modeling",
+   "Technical reports"
+  ]
+ },
+ {
+  "cat": "Simulator / tool",
+  "year": "2025–2026",
+  "title": "Consumption-tax reform impact simulator for a cooperative",
+  "desc": "Estimates the future dual-VAT burden, deductible and presumed credits under different rate scenarios, with an audit trail from every input to its legal basis.",
+  "stack": [
+   "Excel",
+   "Sensitivity analysis",
+   "Tax law"
+  ]
+ },
+ {
+  "cat": "Consulting",
+  "year": "2025–2026",
+  "title": "Tax-reform advisory program for recycling cooperatives",
+  "desc": "Workshops, action plan, technical note, plain-language booklet, video script and legislation-tracking updates to prepare cooperatives for the new consumption taxes.",
+  "stack": [
+   "Training",
+   "Technical writing"
+  ]
+ },
+ {
+  "cat": "Business system",
+  "year": "2023",
+  "title": "Invoice-data integration for a procurement-pricing SaaS",
+  "desc": "Specification and schedule for a daily integration pulling purchase-invoice XML into a price-comparison platform, plus a shopping-list front end organized by supplier.",
+  "stack": [
+   "PHP",
+   "Laravel",
+   "React",
+   "TypeScript",
+   "MySQL"
+  ]
+ },
+ {
+  "cat": "Business system",
+  "year": "2022",
+  "title": "Documentation for an online credit-application portal",
+  "desc": "Requirements, architecture, data model and step-by-step user guides for a portal where individuals and companies apply for credit lines and upload documents.",
+  "stack": [
+   "Node.js",
+   "Quasar",
+   "MySQL",
+   "Firebase"
+  ]
+ },
+ {
+  "cat": "Mobile app",
+  "year": "2026",
+  "title": "Product specification for a bespoke-tailoring app",
+  "desc": "Screen map, wireframes and sprint-ready backlog for an app that digitizes a tailor's three-fitting method, with guided photos, photo markup and pattern export to PDF.",
+  "stack": [
+   "FlutterFlow",
+   "Firebase",
+   "PWA"
+  ]
+ },
+ {
+  "cat": "Website",
+  "year": "2026",
+  "title": "Landing page rebuilt in WordPress with a custom content plugin",
+  "desc": "Moved a static single-page build to WordPress with a custom plugin so the marketing team edits content without code, with a built-in fallback copy and a fix for a scroll-animation modal bug.",
+  "stack": [
+   "WordPress",
+   "Custom PHP plugin",
+   "JavaScript",
+   "GTM"
+  ]
+ },
+ {
+  "cat": "Website",
+  "year": "2026",
+  "title": "Corporate site rebuild from a site builder to WordPress",
+  "desc": "Element-by-element rebuild of a site-builder website in WordPress; a script skips the heavy hero video on mobile, saving about 25 MB per mobile visit.",
+  "stack": [
+   "WordPress",
+   "Elementor",
+   "JavaScript"
+  ]
+ },
+ {
+  "cat": "Consulting",
+  "year": "2026",
+  "title": "Zero-downtime migration of four WordPress sites",
+  "desc": "Tested copies on temporary domains, domain swaps with rollback, DNS cutover that protected existing e-mail, and cache/SSL checks.",
+  "stack": [
+   "WordPress",
+   "DNS",
+   "CDN",
+   "Hosting"
+  ]
+ },
+ {
+  "cat": "E-commerce",
+  "year": "2023",
+  "title": "Online store for a mobile-accessories retailer",
+  "desc": "WooCommerce store with catalog and checkout, handed over with a user manual.",
+  "stack": [
+   "WordPress",
+   "WooCommerce"
+  ]
+ },
+ {
+  "cat": "Marketing",
+  "year": "2021–2024",
+  "title": "Digital presence and paid-ads program for small businesses",
+  "desc": "Repeatable method applied to more than a dozen small businesses: briefing, diagnosis, keyword research, paid campaigns, a 7/30/60/90-day action plan and measurement.",
+  "stack": [
+   "Google Ads",
+   "Meta Ads",
+   "Google Business Profile",
+   "SEO"
+  ]
+ },
+ {
+  "cat": "Consulting",
+  "year": "2022–2023",
+  "title": "E-commerce readiness diagnostics for small retailers",
+  "desc": "Assessments of whether small businesses were ready to launch an online store, with recommendations.",
+  "stack": [
+   "Diagnostic framework",
+   "Reports"
+  ]
+ },
+ {
+  "cat": "Marketing",
+  "year": "2026",
+  "title": "Digital presence and paid-search plan for an artisan brand",
+  "desc": "Diagnosis, personas, keyword strategy, a 3-month content calendar and hands-on profile optimization.",
+  "stack": [
+   "Instagram",
+   "WhatsApp Business",
+   "Google Ads",
+   "Canva"
+  ]
+ },
+ {
+  "cat": "Marketing",
+  "year": "2022",
+  "title": "Google Ads campaigns for financial-services businesses",
+  "desc": "Keyword research, campaign setup and optimization, including one engagement that also delivered the website.",
+  "stack": [
+   "Google Ads",
+   "Keyword Planner"
+  ]
+ },
+ {
+  "cat": "Consulting",
+  "year": "2022",
+  "title": "Strategic planning and manifesto for a cooperative network",
+  "desc": "Facilitated mission and strategic-planning sessions and wrote the network's manifesto and video script.",
+  "stack": [
+   "Workshops",
+   "Facilitation"
+  ]
+ },
+ {
+  "cat": "Consulting",
+  "year": "2023",
+  "title": "Production-floor layout improvement for an apparel maker",
+  "desc": "Diagnosed the production flow and proposed a redesigned workshop layout.",
+  "stack": [
+   "Process analysis",
+   "draw.io"
+  ]
+ },
+ {
+  "cat": "Website",
+  "year": "2025–2026",
+  "title": "Corporate website for an IT support company",
+  "desc": "Information architecture, responsive UI, hero video, service sections and on-page SEO; later migrated to new hosting with a tested copy and rollback plan.",
+  "stack": [
+   "WordPress",
+   "UI",
+   "SEO"
+  ]
+ },
+ {
+  "cat": "Website",
+  "year": "2022",
+  "title": "Restaurant website",
+  "desc": "Responsive restaurant site with updatable menu, reservation and delivery pages, location map and local SEO.",
+  "stack": [
+   "WordPress",
+   "Local SEO"
+  ]
+ },
+ {
+  "cat": "Website",
+  "year": "2023",
+  "title": "Website for a hair-treatment clinic",
+  "desc": "Institutional site for a hair-loss treatment service with SEO for treatment keywords.",
+  "stack": [
+   "WordPress",
+   "SEO"
+  ]
+ },
+ {
+  "cat": "Website",
+  "year": "2023",
+  "title": "Website for a natural pet-food bakery",
+  "desc": "Brand site showing natural cakes and meals for pets, with SEO for the niche.",
+  "stack": [
+   "WordPress",
+   "SEO"
+  ]
+ },
+ {
+  "cat": "Website",
+  "year": "2022",
+  "title": "Promotional website for a mobile-app startup",
+  "desc": "Website promoting a mobile app, delivered with user manual and client training.",
+  "stack": [
+   "WordPress",
+   "Elementor"
+  ]
+ },
+ {
+  "cat": "Website",
+  "year": "2022",
+  "title": "Marketing website for a vehicle-recovery app",
+  "desc": "Site promoting a vehicle-location app, with partner sign-up, contact form and SEO for the app's keywords.",
+  "stack": [
+   "WordPress",
+   "Slider Revolution"
+  ]
+ },
+ {
+  "cat": "Website",
+  "year": "2023",
+  "title": "Personal-brand website for a holistic therapist",
+  "desc": "Institutional site presenting services and courses, with SEO built around the practitioner's methods.",
+  "stack": [
+   "WordPress",
+   "Elementor"
+  ]
+ },
+ {
+  "cat": "E-commerce",
+  "year": "2022",
+  "title": "Online store for a floral design studio",
+  "desc": "Store for floral arrangements with catalog, payment integration and order management.",
+  "stack": [
+   "WooCommerce",
+   "Payments"
+  ]
+ },
+ {
+  "cat": "E-commerce",
+  "year": "2022",
+  "title": "Online store for a phone and laptop repair shop",
+  "desc": "Store for accessories and repair services with catalog, payment integration and order notifications.",
+  "stack": [
+   "WooCommerce",
+   "Payments"
+  ]
+ },
+ {
+  "cat": "Website",
+  "year": "2026",
+  "title": "Landing page for a boutique law practice",
+  "desc": "Hand-coded one-page site with WhatsApp contact form, optimized images and ethics-compliant copy.",
+  "stack": [
+   "HTML",
+   "CSS",
+   "JavaScript"
+  ]
+ }
+]

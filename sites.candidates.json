@@ -1,0 +1,258 @@
+[
+ {
+  "slug": "mepague",
+  "url": "https://appmepague.com.br",
+  "title": "MePague",
+  "kind": "Own product · mobile app",
+  "group": "product",
+  "desc": "Billing and payment-reminder app for small businesses: registers charges, reminds customers automatically and tracks what has been paid. Built with React Native (Expo) and Firebase, plus its landing page.",
+  "tags": [
+   "React Native",
+   "Expo",
+   "Firebase",
+   "Product"
+  ]
+ },
+ {
+  "slug": "cantamore",
+  "url": "https://cantamore.com.br",
+  "title": "Cantamore",
+  "kind": "Own product · web",
+  "group": "product",
+  "desc": "Personalized-song gift service: customers tell a real story and receive an original song, produced with AI and human curation. Brand, website and order flow.",
+  "tags": [
+   "Product",
+   "Web",
+   "AI",
+   "Branding"
+  ]
+ },
+ {
+  "slug": "neocentro",
+  "url": "https://neocentrovacinas.com.br",
+  "title": "Healthcare e-commerce network",
+  "kind": "WooCommerce · multi-site",
+  "desc": "Institutional website plus three regional WooCommerce stores and a landing page. Payment-gateway integration, 2FA hardening, performance tuning and ongoing maintenance.",
+  "tags": [
+   "WordPress",
+   "WooCommerce",
+   "Payments",
+   "Security"
+  ],
+  "group": "client",
+  "static_image": "assets/sites/neocentro.jpg"
+ },
+ {
+  "slug": "jbturismo",
+  "url": "https://jbturismonaamazonia.com.br",
+  "title": "River-tourism agency website (Amazon)",
+  "kind": "WordPress",
+  "desc": "Tourism website with tour, fleet, gallery and contact pages, a floating menu, embedded map and SEO for regional tourism.",
+  "tags": [
+   "WordPress",
+   "SEO",
+   "Tourism"
+  ],
+  "group": "client"
+ },
+ {
+  "slug": "techcare",
+  "url": "https://techcareapp.com",
+  "title": "Promotional website for a mobile-app startup",
+  "kind": "WordPress · landing",
+  "desc": "Website promoting a mobile app, delivered with user manual and client training.",
+  "tags": [
+   "WordPress",
+   "Landing page",
+   "Performance"
+  ],
+  "group": "client"
+ },
+ {
+  "slug": "mocar",
+  "url": "https://www.mocar.com.br",
+  "title": "Marketing website for a vehicle-recovery app",
+  "kind": "WordPress",
+  "desc": "Site promoting a vehicle-location app, with partner sign-up, contact form and SEO for the app's keywords.",
+  "tags": [
+   "WordPress",
+   "UI",
+   "Lead capture"
+  ],
+  "group": "client"
+ },
+ {
+  "slug": "ciodaterra",
+  "url": "https://cooperativaciodaterra.com.br",
+  "title": "Agricultural cooperative website",
+  "kind": "WordPress",
+  "desc": "Website for a farming cooperative: products, institutional content and news.",
+  "tags": [
+   "WordPress",
+   "Content",
+   "Responsive"
+  ],
+  "group": "client"
+ },
+ {
+  "slug": "locmil",
+  "url": "https://grupolocmil.com.br",
+  "title": "Tourism & services website for a regional business group",
+  "kind": "WordPress",
+  "desc": "Multi-business site for tours, lodging, car rental and an auto center, with WhatsApp booking links and local SEO.",
+  "tags": [
+   "WordPress",
+   "Tourism",
+   "Local SEO"
+  ],
+  "group": "client"
+ },
+ {
+  "slug": "atman",
+  "url": "https://atmantantra.com.br",
+  "title": "Online course store for a therapy school",
+  "kind": "WooCommerce",
+  "desc": "WooCommerce store for courses with student login, payment-gateway integration and order reminders by e-mail and SMS.",
+  "tags": [
+   "WooCommerce",
+   "Payments",
+   "E-mail/SMS"
+  ],
+  "group": "client"
+ },
+ {
+  "slug": "thriade",
+  "url": "https://thriade.com",
+  "title": "Consulting firm website",
+  "kind": "WordPress",
+  "desc": "Institutional website for a management consulting firm.",
+  "tags": [
+   "WordPress",
+   "Corporate"
+  ],
+  "group": "client"
+ },
+ {
+  "slug": "taynah",
+  "url": "https://taynahserpa.com.br",
+  "title": "Personal-brand website for a holistic therapist",
+  "kind": "WordPress",
+  "desc": "Institutional site presenting services and courses, with SEO built around the practitioner's methods.",
+  "tags": [
+   "WordPress",
+   "Personal brand"
+  ],
+  "group": "client"
+ },
+ {
+  "slug": "floral",
+  "url": "https://scdesignerfloral.com",
+  "title": "Online store for a floral design studio",
+  "kind": "WooCommerce",
+  "desc": "Store for floral arrangements with catalog, payment integration and order management.",
+  "tags": [
+   "WordPress",
+   "Gallery"
+  ],
+  "group": "client"
+ },
+ {
+  "slug": "law",
+  "url": "https://alinealvesfernandes.com",
+  "title": "Landing page for a boutique law practice",
+  "kind": "HTML · CSS · JS",
+  "desc": "Hand-coded one-page site with WhatsApp contact form, optimized images and ethics-compliant copy.",
+  "tags": [
+   "HTML",
+   "CSS",
+   "JavaScript"
+  ],
+  "group": "client"
+ },
+ {
+  "slug": "somanutencao",
+  "url": "http://somanutencaodf.com",
+  "title": "Online store for a phone and laptop repair shop",
+  "kind": "WooCommerce",
+  "desc": "Store for accessories and repair services with catalog, payment integration and order notifications.",
+  "tags": [
+   "WordPress",
+   "Local SEO"
+  ],
+  "group": "client"
+ },
+ {
+  "slug": "tecflex",
+  "url": "https://tecflexbrasilia.com",
+  "title": "Corporate website for an IT support company",
+  "kind": "WordPress",
+  "desc": "Information architecture, responsive UI, hero video, service sections and on-page SEO; later migrated to new hosting with a tested copy and rollback plan.",
+  "tags": [
+   "WordPress",
+   "UI",
+   "SEO",
+   "Migration"
+  ],
+  "group": "client"
+ },
+ {
+  "slug": "dftintas",
+  "url": "https://dftintasgama.com.br",
+  "title": "Online store for a paint and hardware retailer",
+  "kind": "WooCommerce",
+  "desc": "Categorized catalog, related products, payment integration, abandoned-order e-mails and policy pages.",
+  "tags": [
+   "WooCommerce",
+   "Payments"
+  ],
+  "group": "client"
+ },
+ {
+  "slug": "curcuma",
+  "url": "https://restaurantecurcuma.com",
+  "title": "Restaurant website",
+  "kind": "WordPress",
+  "desc": "Responsive restaurant site with updatable menu, reservation and delivery pages, location map and local SEO.",
+  "tags": [
+   "WordPress",
+   "Local SEO"
+  ],
+  "group": "client"
+ },
+ {
+  "slug": "intracapilar",
+  "url": "https://intracapilar.com",
+  "title": "Website for a hair-treatment clinic",
+  "kind": "WordPress",
+  "desc": "Institutional site for a hair-loss treatment service with SEO for treatment keywords.",
+  "tags": [
+   "WordPress",
+   "SEO"
+  ],
+  "group": "client"
+ },
+ {
+  "slug": "rooforpet",
+  "url": "https://rooforpet.com",
+  "title": "Website for a natural pet-food bakery",
+  "kind": "WordPress",
+  "desc": "Brand site showing natural cakes and meals for pets, with SEO for the niche.",
+  "tags": [
+   "WordPress",
+   "SEO"
+  ],
+  "group": "client"
+ },
+ {
+  "slug": "rooforpetbr",
+  "url": "https://rooforpet.com.br",
+  "title": "Website for a natural pet-food bakery",
+  "kind": "WordPress",
+  "desc": "Brand site showing natural cakes and meals for pets, with SEO for the niche.",
+  "tags": [
+   "WordPress",
+   "SEO"
+  ],
+  "group": "client"
+ }
+]
